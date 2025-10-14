@@ -39,6 +39,7 @@
       section {
         width: 50%;
       }
+
       .background-logo {
         width: 50%;
         height: 100%;
@@ -54,27 +55,11 @@
         margin-top: 30px;
       }
 
-      .bton {
-        border-radius: 1234px;
-        background: #8c7042;
-        display: flex;
-        height: 48px;
-        padding: 12px 16px;
-        justify-content: center;
-        align-items: center;
-        gap: 8px;
-        align-self: stretch;
-      }
-      .p-relative {
-        position: relative;
-      }
-
       input[type="email"],
       input[type="text"],
       input[type="password"] {
         width: 100%;
         padding: 10px;
-        border-radius: 8px;
         border: 1px solid #eaeaea !important;
         margin-bottom: 1rem;
         outline: 0;
@@ -104,15 +89,6 @@
 
       p {
         margin: 0 !important;
-      }
-
-      #forgotPassword {
-        position: absolute;
-        right: 0;
-        top: 98%;
-        color: #8c7042 !important;
-
-        font-size: 10px;
       }
 
       .unified_container .row .panel-default #api .localAccount .rememberMe {
@@ -151,6 +127,9 @@
         margin: 1rem 0;
       }
 
+      .buttons {
+        display: flex;
+      }
       .buttons button {
         background-color: #369be7 !important;
         width: 100%;
@@ -279,30 +258,6 @@
           left: 0;
           border-radius: 0 !important;
         }
-
-        .main-login > section {
-          width: 100% !important;
-          margin: 0 auto;
-          z-index: 2;
-          opacity: 97%;
-        }
-
-        section:has(form) > img {
-          width: 100% !important;
-        }
-        section:has(form) > div {
-          h3 {
-            font-size: 1.5rem !important;
-          }
-
-          p {
-            font-size: 12px !important;
-          }
-        }
-
-        .bg.bg1 {
-          background-position: bottom;
-        }
       }
 
       @media (max-width: 500px) {
@@ -376,7 +331,10 @@
       </section>
 
       <div class="background-logo">
-        <img src="images/light-bg.png" alt="logo" />
+        <img
+          src="https://ahmedgamalemam.github.io/dream_fly_signup/images/light-bg.png"
+          alt="logo"
+        />
       </div>
     </main>
   </body>
